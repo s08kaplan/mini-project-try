@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px;
+    padding: 50px;
+}
+
+thead td {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* font-size: 100px; */
+   
+}
+thead input {
+    width: 90%;
+    padding: 20px;
+    text-align: end;
+    background-color: rgb(79, 149, 13);
+    color: rgb(226, 218, 220);
+    font-size: 20px;
+}
+
+button {
+    padding: 30px;
+    background-color: rgb(151, 139, 151);
+    margin: 5px;
+    border-radius: 50%;
+    list-style-type: none;
+    transition: .5s;
+}
+
+button:hover {
+    color: pink;
+    background-color: rgba(170, 0, 255, 0.434);
+    font-size: 10px;
+}
